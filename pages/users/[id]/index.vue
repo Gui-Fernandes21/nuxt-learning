@@ -3,4 +3,10 @@
 </template>
 
 <script>
+export default {
+  validate(data) {
+    console.log('sum2');
+    return console.log(data);
+  },
+}
 </script>
